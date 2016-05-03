@@ -344,7 +344,7 @@ int main(int argc, char **argv)
 	}
 
 	if(opts.opt_e) {
-		(void) fprintf(stdout, "</body></head>\n");
+		(void) fprintf(stdout, "</body></html>\n");
 	}
 
 	return EXIT_SUCCESS;
